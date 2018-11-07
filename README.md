@@ -1,24 +1,41 @@
-# README
+# Draw with Me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Draw with Me*, a collaborative drawing application with a shared canvas and a chat room.
 
-Things you may want to cover:
+## Application Features
+- User can draw on a shared canvas with another user.
 
-* Ruby version
+- User can chat in the chat room with other users.
 
-* System dependencies
+- User can draw in different colors and sizes.
 
-* Configuration
 
-* Database creation
+## Built With
+- JavaScript
+- Ruby
+- Rails API utilizing Active Model Serializers
+- Sqlite3 Database using ActiveRecord
+- Paper.js JavaScript library
+- Action Cables and WebSockets
 
-* Database initialization
+## Front-End Repository
+https://github.com/bryanteng/frontend_draw_with_me
 
-* How to run the test suite
+## Server-Side Install Instructions
+1. Run `bundle install`
+2. Run `rake db:create`
+3. Run `rake db:migrate`
+4. Run `rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Client-Side Install Instructions
+1. Run `open index.html` in terminal
 
-* Deployment instructions
+## Contributing
+[Contributing Guide](./CONTRIBUTING.md)
 
-* ...
+## Authors
+- **Josue Alorro**
+- **Bryan Teng**
+
+## License
+[License](./LICENSE.md)
